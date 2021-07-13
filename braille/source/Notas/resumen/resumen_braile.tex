@@ -1,0 +1,212 @@
+
+\documentclass[draft]{article}
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fullpage}
+\usepackage[puttinydots]{braille}
+
+\usepackage[lmargin=2.54cm, tmargin=2.54cm, rmargin=2.54cm, bmargin=2.54cm]{geometry}
+
+\newcommand{\mytable}[1]{%
+    \enskip\begin{tabular}[t]{r|l} 
+    \hline #1 \hline
+    \end{tabular}\enskip}
+
+% tabla de tildes
+
+\newcommand{\mytildetable}[1]{%
+	\enskip\begin{tabular}[t]{l|r|l} 
+		\hline #1 \hline
+	\end{tabular}\enskip}
+
+\newcommand{\mytablewith}[2]{%
+    \enskip\begin{tabular}[t]{r|l} 
+    \multicolumn{2}{c}{#1} \\
+    \hline #2 \hline
+    \end{tabular}\enskip}
+
+\newcommand{\mytaglist}[1]{%
+    \enskip\begin{tabular}[t]{@{}l@{}}
+    #1
+    \end{tabular}\enskip}
+
+
+
+\title{Escritura con la Fuente Braille en \LaTeX{}}
+\author{Ferreira Juan David}
+\date{\today}
+
+
+
+\begin{document}
+	
+\maketitle
+
+\tableofcontents
+
+
+\section{Braille Alphabets}
+
+\begin{center}
+	\mytable{
+		\braille{a} & a 1 \\
+		\braille{b} & b 2 \\
+		\braille{c} & c 3 \\
+		\braille{d} & d 4 \\
+		\braille{e} & e 5 \\
+		\braille{f} & f 6 \\
+		\braille{g} & g 7 \\
+		\braille{h} & h 8 \\
+		\braille{i} & i 9 \\
+		\braille{j} & j 0 \\
+	}
+    \mytable{
+    	\braille{k} & k \\
+    	\braille{l} & l \\
+    	\braille{m} & m \\
+    	\braille{n} & n \\
+    	\braille{o} & o \\
+    	\braille{p} & p \\
+    	\braille{q} & q \\
+    	\braille{r} & r \\
+    	\braille{s} & s \\
+    	\braille{t} & t \\
+    }
+	\mytable{
+		\braille{u} & u \\
+		\braille{v} & v \\
+		\braille{w} & w \\
+		\braille{x} & x \\
+		\braille{y} & y \\
+		\braille{z} & z \\
+	}
+\end{center}
+
+\subsection{La letra ñ}
+
+
+\begin{center}
+	\mytildetable{
+		ñ & \braille{{er}}     & \{er\} \\
+	}
+\end{center}
+
+La letra \texttt{ñ} se escribe \verb|\braille{{er}}|
+
+\braille{{er}}
+
+La letra \texttt{Ñ} se escribe \verb|\braille{{Italic}{er}}|
+
+\braille{{Italic}{er}}
+
+ojo con escribir  \verb|\braille{er}| porque esto produce
+
+\braille{er}
+
+
+\subsection{La letra ü}
+
+\begin{center}
+	\mytildetable{
+		ü & \braille{{ou}}     & \{ou\} \\
+	}
+\end{center}
+
+La letra \texttt{ü} se escribe \verb|\braille{{ou}}|
+
+\braille{{ou}} 
+
+La letra \texttt{Ü} se escribe \verb|\braille{{Italic}{ou}}|
+
+\braille{{Italic}{ou}}
+
+
+\section{Prefijo indicador}
+
+\begin{center}
+	\mytildetable{
+		Mayúscula&\braille{{Italic}}  & \{Italic\}   \\
+	}
+	\mytildetable{
+		Números &\braille{{Number}} & \{Number\} \\	
+		Letras  &\braille{{Letter}} & \{Letter\} \\
+	}
+\end{center}
+
+\section{Signos de puntuación}
+
+
+
+
+
+
+
+
+\section{Vocales con tilde}
+
+\begin{center}
+	\mytildetable{
+		á &\braille{{of}}    & \{of\}      \\
+		é &\braille{{the}}   & \{the\}     \\
+		í&\braille{{st}}     & / \{st\}  \\
+		ó&\braille{{ing}}    & \{ing\}  \\
+		ú&\braille{{with}}   & \{with\}    \\
+	}
+\end{center}
+
+
+\section{Signos de puntuación}
+
+Los signos de puntuación comunes se escriben se escriben directamente cómo
+
+\begin{center}
+	\mytable{
+		$)$&\braille{)} \\
+		e&ance \\
+		n&sion \\
+		s&less \\
+		t&ount \\
+	}
+	\mytable{
+		e&ence \\
+		g&ong \\
+		l&ful \\
+		n&tion \\
+		s&ness \\
+		t&ment \\
+		y&ity \\
+	}
+	\mytable{
+		n&ation \\
+		y&ally \\
+	}
+\end{center}
+
+
+\section{Ejemplos}
+
+\sloppy
+\begin{itemize}
+	\item Amistad 
+	
+	{\bf Grade 1:} Amistad \\
+	\braille{{Italic}amistad}
+	
+
+	
+\end{itemize}
+
+\begin{itemize}
+	\item jugar
+	
+	{\bf Grado 1:} jugar \\
+	\braille{jugar}
+	
+	
+	
+\end{itemize}
+
+
+\end{document}

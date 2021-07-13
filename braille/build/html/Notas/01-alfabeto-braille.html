@@ -1,0 +1,730 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. Alfabeto Braille &mdash; documentación de Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille - 0.0.1</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/translations.js"></script>
+        <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="next" title="2. Caracteres especiales" href="02-vocales-con-tilde.html" />
+    <link rel="prev" title="Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Buscar documentos" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contenidos:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. Alfabeto Braille</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#los-signos-braille">1.1. Los signos braille</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#enumeracion-de-los-puntos">1.1.1. Enumeración de los puntos</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#escritura-en-latex">1.2. Escritura en LaTeX</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preambulo">1.2.1. Preámbulo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#alfabeto-segun-el-paquete-braille">1.2.2. Alfabeto según el paquete Braille</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#escritura-de-las-letras">1.3. Escritura de las letras</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prefijos">1.4. Prefijos</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#minusculas">1.4.1. Minúsculas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#mayusculas">1.4.2. Mayúsculas</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#signos-de-puntuacion">1.5. signos de puntuación</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#cifras-numericas">1.6. Cifras Numéricas</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="02-vocales-con-tilde.html">2. Caracteres especiales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-operadores-aritmeticos.html">3. Operadores Aritméticos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-otros-signos-habituales.html">4. Otros Signos Habituales</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span>Alfabeto Braille</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/Notas/01-alfabeto-braille.rst.txt" rel="nofollow"> Ver código fuente de la página</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="alfabeto-braille">
+<h1><span class="section-number">1. </span>Alfabeto Braille<a class="headerlink" href="#alfabeto-braille" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="section" id="los-signos-braille">
+<h2><span class="section-number">1.1. </span>Los signos braille<a class="headerlink" href="#los-signos-braille" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>El lenguaje Braille se basa en una matriz de orden <span class="math notranslate nohighlight">\(3\times 2\)</span>, tales que los <span class="math notranslate nohighlight">\(6\)</span> puntos están numerados de la siguiente manera:</p>
+<ul class="simple">
+<li><p>Los puntos de la primer columna se numeran como <span class="math notranslate nohighlight">\(1\)</span>, <span class="math notranslate nohighlight">\(2\)</span> y <span class="math notranslate nohighlight">\(3\)</span>, y</p></li>
+<li><p>Los de la segunda columna como <span class="math notranslate nohighlight">\(4\)</span>, <span class="math notranslate nohighlight">\(5\)</span> y <span class="math notranslate nohighlight">\(6\)</span>, siempre de manera descendente (de arriba hacia abajo).</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/matriz_braille.svg"><img alt="matriz_braille" class="align-center" height="30px" src="../_images/matriz_braille.svg" width="30%" /></a>
+<p>Un dato que me parece interesante es la mayoría de bibliografías señalan que, con una sola matriz, se pueden formar <span class="math notranslate nohighlight">\(64\)</span> símbolos según estén presentes o no los puntos en cada matriz (incluyendo a la matriz vacía,que no tiene ningún punto). El hecho es que este número es el resultado del problema combinatorio subyacente que tiene como resultado:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\sum_{i=0}^{6} \left (\begin{array}{l} 6 \\ i \end{array}\right ) = 64\end{split}\]</div>
+<p>Entonces, ya sabemos que existen <span class="math notranslate nohighlight">\(64\)</span> combinaciones posibles con una sola matriz, y cada una de estas son utilizadas para formar caracters simples con los cuales se pueden representar en Braille los signos gráficos que utilizamos para escribir textos impresos en caracteres visuales.</p>
+<div class="section" id="enumeracion-de-los-puntos">
+<h3><span class="section-number">1.1.1. </span>Enumeración de los puntos<a class="headerlink" href="#enumeracion-de-los-puntos" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La enumeración de los puntos que componen un signo Braille de un solo caracter se efectua mediante números de tantas cifras cuantos puntos sean utilizados, empleando para cada punto el dígito que lo identifica.</p>
+<p>Por ejemplo, la letra «v minúscula» se forma en braille con los tres puntos <span class="math notranslate nohighlight">\((1,2,3,6)\)</span>.</p>
+<a class="reference internal image-reference" href="../_images/alfabeto.svg"><img alt="matriz_braille" class="align-center" height="30px" src="../_images/alfabeto.svg" width="30%" /></a>
+<p>Notemos que, en la imagen anterior, los puntos <span class="math notranslate nohighlight">\(4\)</span> y <span class="math notranslate nohighlight">\(5\)</span> no forman parte de este signo, por lo que los señalamos con <span class="math notranslate nohighlight">\(\textcolor{blue}{\blacksquare}\)</span>.</p>
+<p>Pero ocurre que los signos visuales son muchos más que esas <span class="math notranslate nohighlight">\(64\)</span> posibles combinaciones.</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#alfabeto"><span class="std std-ref">Escritura de las letras</span></a> (contempla las letras minúsculas y mayúsculas),</p></li>
+<li><p><a class="reference internal" href="#cifras-numericas"><span class="std std-ref">Cifras Numéricas</span></a>,</p></li>
+<li><p><a class="reference internal" href="#signos-de-puntuacion"><span class="std std-ref">signos de puntuación</span></a>,</p></li>
+<li><p><a class="reference internal" href="03-operadores-aritmeticos.html"><span class="doc">Operadores Aritméticos</span></a> y</p></li>
+<li><p><a class="reference internal" href="04-otros-signos-habituales.html"><span class="doc">Otros Signos Habituales</span></a> (euro, porcentaje, etc.).</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="escritura-en-latex">
+<span id="alfabeto-tex"></span><h2><span class="section-number">1.2. </span>Escritura en LaTeX<a class="headerlink" href="#escritura-en-latex" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="preambulo">
+<h3><span class="section-number">1.2.1. </span>Preámbulo<a class="headerlink" href="#preambulo" title="Enlazar permanentemente con este título">¶</a></h3>
+<div class="literal-block-wrapper docutils container" id="id4">
+<div class="code-block-caption"><span class="caption-text">Preámbulo</span><a class="headerlink" href="#id4" title="Enlace permanente a este código fuente">¶</a></div>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\documentclass</span><span class="na">[draft, 12pt]</span><span class="nb">{</span>article<span class="nb">}</span>
+<span class="c">%% ----------------------------  Inicio del Preámbulo  ---------------------------- %%</span>
+<span class="k">\usepackage</span><span class="na">[spanish]</span><span class="nb">{</span>babel<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[utf8]</span><span class="nb">{</span>inputenc<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[T1]</span><span class="nb">{</span>fontenc<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="nb">{</span>fullpage<span class="nb">}</span>
+<span class="k">\usepackage</span><span class="na">[puttinydots]</span><span class="nb">{</span>braille<span class="nb">}</span>
+
+<span class="k">\usepackage</span><span class="na">[lmargin=2.54cm, tmargin=2.54cm, rmargin=2.54cm, bmargin=2.54cm]</span><span class="nb">{</span>geometry<span class="nb">}</span>
+
+<span class="k">\title</span><span class="nb">{</span>Escritura con la Fuente Braille en <span class="k">\LaTeX</span><span class="nb">{}}</span>
+<span class="k">\author</span><span class="nb">{</span>Ferreira Juan David<span class="nb">}</span>
+<span class="k">\date</span><span class="nb">{</span><span class="k">\today</span><span class="nb">}</span>
+<span class="c">%% ----------------------------  Fin del Preámbulo    ---------------------------- %%</span>
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+
+<span class="c">%%</span>
+<span class="c">%% Cuerpo del documento.</span>
+<span class="c">%%</span>
+
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="alfabeto-segun-el-paquete-braille">
+<h3><span class="section-number">1.2.2. </span>Alfabeto según el paquete Braille<a class="headerlink" href="#alfabeto-segun-el-paquete-braille" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La siguiente es una lista de macros <span class="math notranslate nohighlight">\(\TeX\)</span> y símbolos Braille contenidos en <code class="docutils literal notranslate"><span class="pre">braille.sty</span></code>. El comando de usuario <code class="docutils literal notranslate"><span class="pre">\braille{}</span></code> convierte la secuencia de etiquetas en símbolos Braille.</p>
+<ul class="simple">
+<li><p>Una etiqueta puede ser un carácter que aparece tal cual, o varios caracteres que deben ir encerrados con <code class="docutils literal notranslate"><span class="pre">{}</span></code>.</p></li>
+<li><p>Para cada etiqueta, se llama a una macro <span class="math notranslate nohighlight">\(\TeX\)</span> predefinida para imprimir los símbolos Braille.</p></li>
+</ul>
+<p>Por ejemplo,</p>
+<div class="literal-block-wrapper docutils container" id="id5">
+<div class="code-block-caption"><span class="caption-text">Macros</span><a class="headerlink" href="#id5" title="Enlace permanente a este código fuente">¶</a></div>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="c">%% ----------------------------------------- %%</span>
+<span class="c">%%        Aquí va nuestro Preámbulo          %%</span>
+<span class="c">%% ----------------------------------------- %%</span>
+
+<span class="k">\begin</span><span class="nb">{</span>document<span class="nb">}</span>
+
+<span class="k">\maketitle</span>
+
+<span class="k">\section</span><span class="nb">{</span>Alfabeto Braille<span class="nb">}</span>
+<span class="c">% a 1</span>
+<span class="k">\braille</span><span class="nb">{</span>a<span class="nb">{</span>the<span class="nb">}</span>b<span class="nb">}</span> <span class="k">\\</span>
+
+<span class="k">\end</span><span class="nb">{</span>document<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<p>imprime los símbolos Braille para <code class="docutils literal notranslate"><span class="pre">a</span></code>, <code class="docutils literal notranslate"><span class="pre">the</span></code> y <code class="docutils literal notranslate"><span class="pre">b</span></code>.</p>
+<p>Como de costumbre, <span class="math notranslate nohighlight">\(\TeX\)</span> colapsa varios espacios en un solo espacio e ignora los espacios al final de la línea y las pestañas y las nuevas líneas en todas partes. Esto significa que para el párrafo de varias líneas, debe haber al menos un espacio después de la nueva línea (<code class="docutils literal notranslate"><span class="pre">\n</span></code>).</p>
+</div>
+</div>
+<div class="section" id="escritura-de-las-letras">
+<span id="alfabeto"></span><h2><span class="section-number">1.3. </span>Escritura de las letras<a class="headerlink" href="#escritura-de-las-letras" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Escritura de los principales signos básicos con la fuente Braille Package.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Letra</p></th>
+<th class="head"><p>Puntos braille en la matriz</p></th>
+<th class="head"><p>Signo según el Paquete Braille</p></th>
+<th class="head"><p>Comando</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>a</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_a.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_a.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/a.svg"><img alt="matriz_braille" height="33px" src="../_images/a.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>b</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_b.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_b.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/b.svg"><img alt="matriz_braille" height="33px" src="../_images/b.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{b}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>c</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_c.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_c.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/c.svg"><img alt="matriz_braille" height="33px" src="../_images/c.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{c}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>d</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_d.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_d.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/d.svg"><img alt="matriz_braille" height="33px" src="../_images/d.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{d}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>e</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_e.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_e.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/e.svg"><img alt="matriz_braille" height="33px" src="../_images/e.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{e}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>f</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_f.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_f.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/f.svg"><img alt="matriz_braille" height="33px" src="../_images/f.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{f}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>g</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_g.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_g.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/g.svg"><img alt="matriz_braille" height="33px" src="../_images/g.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{g}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>h</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_h.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_h.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/h.svg"><img alt="matriz_braille" height="33px" src="../_images/h.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{h}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>i</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_i.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_i.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/i.svg"><img alt="matriz_braille" height="33px" src="../_images/i.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{i}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>j</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_j.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_j.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/j.svg"><img alt="matriz_braille" height="33px" src="../_images/j.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{j}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>k</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_k.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_k.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/k.svg"><img alt="matriz_braille" height="33px" src="../_images/k.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{k}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>l</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_l.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_l.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/l.svg"><img alt="matriz_braille" height="33px" src="../_images/l.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{l}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>m</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_m.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_m.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/m.svg"><img alt="matriz_braille" height="33px" src="../_images/m.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{m}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>n</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_n.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_n.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/n.svg"><img alt="matriz_braille" height="33px" src="../_images/n.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{n}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>o</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_o.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_o.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/o.svg"><img alt="matriz_braille" height="33px" src="../_images/o.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{o}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>p</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_p.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_p.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/p.svg"><img alt="matriz_braille" height="33px" src="../_images/p.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{p}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>q</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_q.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_q.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/q.svg"><img alt="matriz_braille" height="33px" src="../_images/q.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{q}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>r</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_r.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_r.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/r.svg"><img alt="matriz_braille" height="33px" src="../_images/r.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{r}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>s</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_s.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_s.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/s.svg"><img alt="matriz_braille" height="33px" src="../_images/s.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{s}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>t</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_t.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_t.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/t.svg"><img alt="matriz_braille" height="33px" src="../_images/t.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{t}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>u</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_u.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_u.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/u.svg"><img alt="matriz_braille" height="33px" src="../_images/u.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{u}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>v</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_v.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_v.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/v.svg"><img alt="matriz_braille" height="33px" src="../_images/v.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{v}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>w</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_w.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_w.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/w.svg"><img alt="matriz_braille" height="33px" src="../_images/w.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{w}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>x</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_x.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_x.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/x.svg"><img alt="matriz_braille" height="33px" src="../_images/x.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{x}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>y</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_y.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_y.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/y.svg"><img alt="matriz_braille" height="33px" src="../_images/y.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{y}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>z</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/letra_z.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/letra_z.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/z.svg"><img alt="matriz_braille" height="33px" src="../_images/z.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{z}</span></code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="prefijos">
+<span id="id1"></span><h2><span class="section-number">1.4. </span>Prefijos<a class="headerlink" href="#prefijos" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="section" id="minusculas">
+<span id="minuscula"></span><h3><span class="section-number">1.4.1. </span>Minúsculas<a class="headerlink" href="#minusculas" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Con la fuente del Paquete Braille escribimos la palabra <strong>jugar</strong>:</p>
+<div class="literal-block-wrapper docutils container" id="id6">
+<div class="code-block-caption"><span class="caption-text">Ejemplo: escribimos la palabra jugar en Braille</span><a class="headerlink" href="#id6" title="Enlace permanente a este código fuente">¶</a></div>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\braille</span><span class="nb">{</span>jugar<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
+<p>y esto nos devuelve los caracteres de las letras minúsculas descritas en el <a class="reference internal" href="#alfabeto">Alfabeto</a>, formando la palabra jugar en Lenguaje Braille.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>j</p></td>
+<td><p>u</p></td>
+<td><p>g</p></td>
+<td><p>a</p></td>
+<td><p>r</p></td>
+</tr>
+<tr class="row-even"><td><div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/j.svg"><img alt="braille" height="50px" src="../_images/j.svg" width="50%" /></a>
+</div>
+</td>
+<td><div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/u.svg"><img alt="braille" height="50px" src="../_images/u.svg" width="50%" /></a>
+</div>
+</td>
+<td><div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/g.svg"><img alt="braille" height="50px" src="../_images/g.svg" width="50%" /></a>
+</div>
+</td>
+<td><div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/a.svg"><img alt="braille" height="50px" src="../_images/a.svg" width="50%" /></a>
+</div>
+</td>
+<td><div class="figure align-left">
+<a class="reference internal image-reference" href="../_images/r.svg"><img alt="braille" height="50px" src="../_images/r.svg" width="50%" /></a>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="mayusculas">
+<span id="mayuscula"></span><h3><span class="section-number">1.4.2. </span>Mayúsculas<a class="headerlink" href="#mayusculas" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Para las letras mayúsculas se utilizan las mismas signos que para las minúsculas, pero antes ha de escribirse el referido «prefijo de mayúscula» para indicar esta condición. La enumeración del prefijo de mayúscula en Braille está dada por <span class="math notranslate nohighlight">\((46)\)</span>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 39%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>En la Matriz</p></th>
+<th class="head"><p>En el PDF</p></th>
+<th class="head"><p>Comando  <span class="math notranslate nohighlight">\(\LaTeX{}\)</span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><div class="figure align-center" id="id7">
+<a class="reference internal image-reference" href="../_images/mayuscula.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/mayuscula.svg" width="40%" /></a>
+<p class="caption"><span class="caption-text">Puntos braille en la matriz</span><a class="headerlink" href="#id7" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+</td>
+<td><div class="figure align-center" id="id8">
+<a class="reference internal image-reference" href="../_images/Braille6ANSI_may.svg"><img alt="matriz_braille" height="33px" src="../_images/Braille6ANSI_may.svg" width="33%" /></a>
+<p class="caption"><span class="caption-text">Signo Braille con Braille Package</span><a class="headerlink" href="#id8" title="Enlace permanente a esta imagen">¶</a></p>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{{Italic}}</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">Advertencia</p>
+<p>Notar que para nuestro lenguaje castellano, entendemos por «Italic» al estilo <em>Itálica</em>. Es poco intuitivo scribir <code class="docutils literal notranslate"><span class="pre">\braille{{Italic}}</span></code> y que esto devuelva el prefijo de <a class="reference internal" href="#mayuscula"><span class="std std-ref">Mayúsculas</span></a>. Esto tiene que ver con varias causas</p>
+<ol class="arabic simple">
+<li><p>El paquete Braille está pensado para usuarios que de habla Inglés.</p></li>
+<li><p>El lenguaje Braille puede cambia de un lenguaje hablado a otro.</p></li>
+<li><p>En el momento en que fue creado el paquete Braille tal vez no haya existido una conveción acerca del prefijo Mayúscula, entre otras.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="section" id="signos-de-puntuacion">
+<span id="id2"></span><h2><span class="section-number">1.5. </span>signos de puntuación<a class="headerlink" href="#signos-de-puntuacion" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+<div class="section" id="cifras-numericas">
+<span id="id3"></span><h2><span class="section-number">1.6. </span>Cifras Numéricas<a class="headerlink" href="#cifras-numericas" title="Enlazar permanentemente con este título">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="02-vocales-con-tilde.html" class="btn btn-neutral float-right" title="2. Caracteres especiales" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Derechos de autor 2021, Ferreira, Juan David.
+
+    </p>
+  </div>
+    
+    
+    
+    Construido con <a href="https://www.sphinx-doc.org/">Sphinx</a> usando un
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">tema</a>
+    
+    proporcionado por <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
