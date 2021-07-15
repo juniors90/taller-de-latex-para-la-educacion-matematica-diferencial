@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>2. Caracteres especiales &mdash; documentación de Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille - 0.0.1</title>
+  <title>3. Caracteres especiales &mdash; documentación de Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lenguaje Braille - 0.0.1</title>
   
 
   
@@ -43,8 +43,8 @@
     
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
-    <link rel="next" title="3. Operadores Aritméticos" href="03-operadores-aritmeticos.html" />
-    <link rel="prev" title="1. Alfabeto Braille" href="01-alfabeto-braille.html" /> 
+    <link rel="next" title="4. Prefijos" href="03-prefijos.html" />
+    <link rel="prev" title="2. Alfabeto Braille" href="01-alfabeto-braille.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -91,15 +91,17 @@
             
               <p class="caption"><span class="caption-text">Contenidos:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="01-alfabeto-braille.html">1. Alfabeto Braille</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">2. Caracteres especiales</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#vocales-con-tilde">2.1. Vocales con tilde</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#la-letra-n">2.2. La letra ñ</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#la-letra-u">2.3. La letra ü</a></li>
+<li class="toctree-l1"><a class="reference internal" href="00-introduccion.html">1. Introducción</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01-alfabeto-braille.html">2. Alfabeto Braille</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">3. Caracteres especiales</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#vocales-con-tilde">3.1. Vocales con tilde</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#la-letra-n">3.2. La letra ñ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#la-letra-u">3.3. La letra ü</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="03-operadores-aritmeticos.html">3. Operadores Aritméticos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="04-otros-signos-habituales.html">4. Otros Signos Habituales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-prefijos.html">4. Prefijos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-operadores-aritmeticos.html">5. Operadores Aritméticos</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-otros-signos-habituales.html">6. Otros Signos Habituales</a></li>
 </ul>
 
             
@@ -148,7 +150,7 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><span class="section-number">2. </span>Caracteres especiales</li>
+      <li><span class="section-number">3. </span>Caracteres especiales</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -168,26 +170,114 @@
            <div itemprop="articleBody">
             
   <div class="section" id="caracteres-especiales">
-<h1><span class="section-number">2. </span>Caracteres especiales<a class="headerlink" href="#caracteres-especiales" title="Enlazar permanentemente con este título">¶</a></h1>
+<h1><span class="section-number">3. </span>Caracteres especiales<a class="headerlink" href="#caracteres-especiales" title="Enlazar permanentemente con este título">¶</a></h1>
 <p>Los caracteres especiales (acentos, tildes, etc.) conviene tener en cuenta que las letras que llevan diacríticos, tales como acentos y tildes, se escriben en Braille con una combinación de puntos distinta a la de la letra base del <a class="reference internal" href="01-alfabeto-braille.html"><span class="doc">Alfabeto Braille</span></a>.</p>
 <p>A continuación, se incluye una serie de comandos <span class="math notranslate nohighlight">\(\LaTeX{}\)</span> donde aparecen las letras que llevan diacríticos en la escritura del idioma español (<a class="reference internal" href="#vocales"><span class="std std-ref">Vocales con tilde</span></a> y <a class="reference internal" href="#letra-enie"><span class="std std-ref">La letra ñ</span></a>)</p>
 <div class="section" id="vocales-con-tilde">
-<span id="vocales"></span><h2><span class="section-number">2.1. </span>Vocales con tilde<a class="headerlink" href="#vocales-con-tilde" title="Enlazar permanentemente con este título">¶</a></h2>
-<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="c">% á</span>
-<span class="k">\braille</span><span class="nb">{{</span>of<span class="nb">}}</span>      <span class="k">\\</span>
-<span class="c">% é</span>
-<span class="k">\braille</span><span class="nb">{{</span>the<span class="nb">}}</span>     <span class="k">\\</span>
-<span class="c">% í</span>
-<span class="k">\braille</span><span class="nb">{{</span>st<span class="nb">}}</span>      <span class="k">\\</span>
-<span class="c">% ó</span>
-<span class="k">\braille</span><span class="nb">{{</span>ing<span class="nb">}}</span>     <span class="k">\\</span>
-<span class="c">% ú</span>
-<span class="k">\braille</span><span class="nb">{{</span>with<span class="nb">}}</span>    <span class="k">\\</span>
-</pre></div>
+<span id="vocales"></span><h2><span class="section-number">3.1. </span>Vocales con tilde<a class="headerlink" href="#vocales-con-tilde" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Letra</p></th>
+<th class="head"><p>Puntos braille en la matriz</p></th>
+<th class="head"><p>Signo según el Paquete Braille</p></th>
+<th class="head"><p>Comando</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>á</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ad.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/ad.svg" width="40%" /></a>
 </div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ad_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/ad_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>é</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ed.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/ed.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ed_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/ed_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>í</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/id.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/id.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/id_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/id_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>ó</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/od.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/od.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/od_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/od_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>ú</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ud.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/ud.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/ud_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/ud_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="section" id="la-letra-n">
-<span id="letra-enie"></span><h2><span class="section-number">2.2. </span>La letra ñ<a class="headerlink" href="#la-letra-n" title="Enlazar permanentemente con este título">¶</a></h2>
+<span id="letra-enie"></span><h2><span class="section-number">3.2. </span>La letra ñ<a class="headerlink" href="#la-letra-n" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Letra</p></th>
+<th class="head"><p>Puntos braille en la matriz</p></th>
+<th class="head"><p>Signo según el Paquete Braille</p></th>
+<th class="head"><p>Comando</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>ñ</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/enie.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/enie.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/enie_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/enie_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+</tbody>
+</table>
 <p>La letra <code class="docutils literal notranslate"><span class="pre">ñ</span></code> se escribe <code class="docutils literal notranslate"><span class="pre">\braille{{er}}</span></code></p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\braille</span><span class="nb">{{</span>er<span class="nb">}}</span>
 </pre></div>
@@ -198,7 +288,35 @@
 </div>
 </div>
 <div class="section" id="la-letra-u">
-<h2><span class="section-number">2.3. </span>La letra ü<a class="headerlink" href="#la-letra-u" title="Enlazar permanentemente con este título">¶</a></h2>
+<span id="letra-uu"></span><h2><span class="section-number">3.3. </span>La letra ü<a class="headerlink" href="#la-letra-u" title="Enlazar permanentemente con este título">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 31%" />
+<col style="width: 38%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Letra</p></th>
+<th class="head"><p>Puntos braille en la matriz</p></th>
+<th class="head"><p>Signo según el Paquete Braille</p></th>
+<th class="head"><p>Comando</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>ü</strong></p></td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/uu.svg"><img alt="puntos_matriz_braille" height="40px" src="../_images/uu.svg" width="40%" /></a>
+</div>
+</td>
+<td><div class="figure align-center">
+<a class="reference internal image-reference" href="../_images/uu_pkg.svg"><img alt="matriz_braille" height="33px" src="../_images/uu_pkg.svg" width="33%" /></a>
+</div>
+</td>
+<td><p><code class="docutils literal notranslate"><span class="pre">\braille{a}</span></code></p></td>
+</tr>
+</tbody>
+</table>
 <p>La letra <code class="docutils literal notranslate"><span class="pre">ü</span></code> se escribe <code class="docutils literal notranslate"><span class="pre">\braille{{ou}}</span></code></p>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\braille</span><span class="nb">{{</span>er<span class="nb">}}</span>
 </pre></div>
@@ -216,8 +334,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="03-operadores-aritmeticos.html" class="btn btn-neutral float-right" title="3. Operadores Aritméticos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="01-alfabeto-braille.html" class="btn btn-neutral float-left" title="1. Alfabeto Braille" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
+        <a href="03-prefijos.html" class="btn btn-neutral float-right" title="4. Prefijos" accesskey="n" rel="next">Siguiente <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="01-alfabeto-braille.html" class="btn btn-neutral float-left" title="2. Alfabeto Braille" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Anterior</a>
     </div>
 
   <hr/>

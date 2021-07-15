@@ -6,6 +6,10 @@
 \usepackage[T1]{fontenc}
 \usepackage{fullpage}
 \usepackage[puttinydots]{braille}
+%\usepackage[useemptybox]{braille}
+%\usepackage[8dots]{braille}
+%\usepackage[mirror]{braille}
+%\usepackage[compact]{braille}
 
 \usepackage[lmargin=2.54cm, tmargin=2.54cm, rmargin=2.54cm, bmargin=2.54cm]{geometry}
 
@@ -105,6 +109,28 @@ ojo con escribir  \verb|\braille{er}| porque esto produce
 
 \braille{er}
 
+%\subsection{La letra ñ}
+%
+%
+%\begin{center}
+%	\mytildetable{
+%		ñ & \braille{{enie}}     & \{enie\} \\
+%	}
+%\end{center}
+%
+%La letra \texttt{ñ} se escribe \verb|\braille{{enie}}|
+%
+%\braille{{enie}}
+%
+%La letra \texttt{Ñ} se escribe \verb|\braille{{Italic}{enie}}|
+%
+%\braille{{Italic}{enie}}
+%
+%ojo con escribir  \verb|\braille{enie}| porque esto produce
+%
+%\braille{er}
+
+
 
 \subsection{La letra ü}
 
@@ -137,24 +163,37 @@ La letra \texttt{Ü} se escribe \verb|\braille{{Italic}{ou}}|
 
 \section{Signos de puntuación}
 
+Los signos de puntuación comunes se escriben se escriben:
 
 
 
-
-
-
-
-\section{Vocales con tilde}
+\section{Letra en español con diacrítico}
 
 \begin{center}
 	\mytildetable{
-		á &\braille{{of}}    & \{of\}      \\
-		é &\braille{{the}}   & \{the\}     \\
-		í&\braille{{st}}     & / \{st\}  \\
-		ó&\braille{{ing}}    & \{ing\}  \\
-		ú&\braille{{with}}   & \{with\}    \\
+		á &\braille{{of}}     & \{of\}      \\
+		é &\braille{{the}}    & \{the\}     \\
+		í &\braille{{st}}     & / \{st\}    \\
+		ó &\braille{{ing}}    & \{ing\}     \\
+		ú &\braille{{with}}   & \{with\}    \\
+		ü & \braille{{ou}}    & \{ou\}     \\
+		ñ & \braille{{er}}    & \{er\}     \\
 	}
 \end{center}
+
+%\section{Letra en español con diacrítico}
+
+%\begin{center}
+%	\mytildetable{
+%		á& \braille{{ad}}   & \{ad\}      \\
+%		é& \braille{{ed}}   & \{ed\}      \\
+%		í& \braille{{id}}   & \{id\} /    \\
+%		ó& \braille{{od}}   & \{od\}      \\
+%		ú& \braille{{ud}}   & \{ud\}      \\
+%		ü& \braille{{ou}}   & \{uu\}      \\
+%		ñ& \braille{{er}}   & \{enie\}    \\
+%	}
+%\end{center}
 
 
 \section{Signos de puntuación}
@@ -163,24 +202,55 @@ Los signos de puntuación comunes se escriben se escriben directamente cómo
 
 \begin{center}
 	\mytable{
-		$)$&\braille{)} \\
-		e&ance \\
-		n&sion \\
-		s&less \\
-		t&ount \\
+		$($&\braille{{gh}} \\
+		$)$&\braille{{ar}} \\
+		$,$&\braille{,}    \\
+		$;$&\braille{;}    \\
 	}
 	\mytable{
-		e&ence \\
-		g&ong \\
-		l&ful \\
-		n&tion \\
-		s&ness \\
-		t&ment \\
-		y&ity \\
+		¿&\braille{{``}} \\
+		?&\braille{?} \\
+		:&\braille{:}    \\
+		.&\braille{'}    \\
+		-&\braille{-} \\
+	}
+\end{center}
+
+
+\section{Operaciones aritméticas básicas}
+
+Signo de suma
+
+Signo de resta
+
+Multiplicación
+
+División
+
+Igualdad
+
+Corte de una expresión
+
+Desarrollo de las cuentas
+
+Números negativos
+
+Expresiones decimales periódicas
+
+\begin{center}
+	\mytable{
+		$+$&\braille{!} \\
+		$-$&\braille{-} \\
+		$\times$&\braille{{``}}    \\
+		$.$&\braille{'}    \\
+		$:$&\braille{.}    \\
 	}
 	\mytable{
-		n&ation \\
-		y&ally \\
+		$=$&\braille{=} \\
+		?&\braille{?} \\
+		:&\braille{:}    \\
+		.&\braille{'}    \\
+		-&\braille{-} \\
 	}
 \end{center}
 
