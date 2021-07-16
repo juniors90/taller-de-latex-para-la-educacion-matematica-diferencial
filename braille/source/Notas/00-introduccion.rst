@@ -51,7 +51,7 @@ Pero ocurre que los signos visuales son muchos más que esas :math:`64` posibles
 - :ref:`cifras-numericas`,
 - :ref:`signos-de-puntuacion`,
 - :doc:`04-operadores-aritmeticos` y
-- :doc:`05-otros-signos-habituales` (euro, porcentaje, etc.).
+- :doc:`05-alfabeto-griego` (euro, porcentaje, etc.).
 
 
 .. _Alfabeto-tex:

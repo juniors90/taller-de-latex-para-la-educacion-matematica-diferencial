@@ -25,6 +25,13 @@
 		\hline #1 \hline
 	\end{tabular}\enskip}
 
+% tabla de alfabeto griego
+
+\newcommand{\myagtable}[1]{%
+	\enskip\begin{tabular}[t]{l|r|l|l} 
+		\hline #1 \hline
+	\end{tabular}\enskip}
+
 \newcommand{\mytablewith}[2]{%
     \enskip\begin{tabular}[t]{r|l} 
     \multicolumn{2}{c}{#1} \\
@@ -201,58 +208,111 @@ Los signos de puntuación comunes se escriben se escriben:
 Los signos de puntuación comunes se escriben se escriben directamente cómo
 
 \begin{center}
-	\mytable{
-		$($&\braille{{gh}} \\
-		$)$&\braille{{ar}} \\
-		$,$&\braille{,}    \\
-		$;$&\braille{;}    \\
+	\myagtable{
+		$.$    &\braille{'}      & $(3)$  & '                  \\
+		$,$    &\braille{,}      & $(2)$  & $,$                \\
+		$;$    &\braille{;}      & $(23)$ & $;$                \\
+		:      &\braille{:}      & $(25)$ & $:$                \\
+		$-$    &\braille{-}      & $(36)$ & $-$                \\
+		¿      &\braille{{en}}   & $(26)$ & \texttt{\{eta\}}   \\
+		?      &\braille{{en}}   & $(26)$ & \texttt{\{eta\}}   \\	
 	}
-	\mytable{
-		¿&\braille{{``}} \\
-		?&\braille{?} \\
-		:&\braille{:}    \\
-		.&\braille{'}    \\
-		-&\braille{-} \\
+	\myagtable{
+		¡      &\braille{!}      & $(235)$  & $!$\\
+		$!$    &\braille{!}      & $(235)$  & $!$\\
+		$"$    &\braille{{``}}   & $(236)$  & \texttt{\{``\}}  \\
+		$``$   &\braille{{``}}   & $(236)$  & \texttt{\{``\}}  \\
+		$($    &\braille{{gh}}   & $(126)$  & \texttt{\{gh\}}  \\
+		$)$    &\braille{{ar}}   & $(345)$  & \texttt{\{ar\}}  \\
+		$\dots$&\braille{'''}    & $(235)$  & \texttt{\{'''\}} \\
 	}
 \end{center}
 
 
 \section{Operaciones aritméticas básicas}
 
-Signo de suma
-
-Signo de resta
-
-Multiplicación
-
-División
-
-Igualdad
-
-Corte de una expresión
-
-Desarrollo de las cuentas
-
-Números negativos
-
-Expresiones decimales periódicas
-
 \begin{center}
 	\mytable{
 		$+$&\braille{!} \\
 		$-$&\braille{-} \\
 		$\times$&\braille{{``}}    \\
-		$.$&\braille{'}    \\
+		$.$&\braille{.}    \\
 		$:$&\braille{.}    \\
 	}
 	\mytable{
 		$=$&\braille{=} \\
 		?&\braille{?} \\
 		:&\braille{:}    \\
-		.&\braille{'}    \\
+		.&\braille{.}    \\
 		-&\braille{-} \\
 	}
 \end{center}
+
+
+\section{Alfabeto Griego Braille}
+
+\begin{center}
+	\myagtable{
+		\braille{{alpha}}    & $\alpha$   & $(4,1)$     & \texttt{\{alpha\}}   \\
+		\braille{{beta}}     & $\beta$    & $(4,12)$    & \texttt{\{beta\}}    \\
+		\braille{{gamma}}    & $\gamma$   & $(4,1245)$  & \texttt{\{gamma\}}   \\
+		\braille{{delta}}    & $\delta$   & $(4,145)$   & \texttt{\{delta\}}   \\
+		\braille{{epsilon}}  & $\epsilon$ & $(4,15)$    & \texttt{\{epsilon\}} \\
+		\braille{{zeta}}     & $\zeta$    & $(4,1356)$  & \texttt{\{zeta\}}    \\
+		\braille{{eta}}      & $\eta$     & $(4,156)$   & \texttt{\{eta\}}     \\   
+		\braille{{theta}}    & $\theta$   & $(4,1456)$  & \texttt{\{theta\}}   \\
+		\braille{{iota}}     & $\iota$    & $(4,24)$    & \texttt{\{iota\}}    \\ 
+		\braille{{kappa}}    & $\kappa$   & $(4,13)$    & \texttt{\{kappa\}}   \\
+		\braille{{lambda}}   & $\lambda$  & $(4,123)$   & \texttt{\{lambda\}}  \\
+		\braille{{mu}}       & $\mu$      & $(4,134)$   & \texttt{\{mu\}}      \\	
+	}
+	\myagtable{
+		\braille{{nu}}       & $\nu$      & $(4,1345)$  & \texttt{\{nu\}}      \\
+		\braille{{xi}}       & $\xi$      & $(4,1346)$  & \texttt{\{xi\}}      \\
+		\braille{{omicron}}  & $o$        & $(4,1345)$  & \texttt{\{omicron\}} \\
+		\braille{{pi}}       & $\pi$      & $(4,1234)$  & \texttt{\{pi\}}      \\
+		\braille{{rho}}      & $\rho$     & $(4,1235)$  & \texttt{\{rho\}}     \\
+		\braille{{sigma}}    & $\sigma$   & $(4,234)$   & \texttt{\{sigma\}}   \\
+		\braille{{tau}}      & $\tau$     & $(4,2345)$  & \texttt{\{tau\}}     \\
+		\braille{{upsilon}}  & $\upsilon$ & $(4,136)$   & \texttt{\{upsilon\}} \\
+		\braille{{phi}}      & $\phi$     & $(4,124)$   & \texttt{\{phi\}}     \\
+		\braille{{chi}}      & $\chi$     & $(4,12346)$ & \texttt{\{chi\}}     \\
+		\braille{{psi}}      & $\psi$     & $(4,13456)$ & \texttt{\{psi\}}     \\
+		\braille{{omega}}    & $\omega$   & $(4,2456)$  & \texttt{\{omega\}}   \\
+	}
+\end{center}
+
+\begin{center}
+	\myagtable{
+		\braille{{Alpha}}    & $A$        & $(45,1)$     & \texttt{\{Alpha\}}   \\
+		\braille{{Beta}}     & $B$        & $(45,12)$    & \texttt{\{Beta\}}    \\
+		\braille{{Gamma}}    & $\Gamma$   & $(45,1245)$  & \texttt{\{Gamma\}}   \\
+		\braille{{Delta}}    & $\Delta$   & $(45,145)$   & \texttt{\{Delta\}}   \\
+		\braille{{Epsilon}}  & $E$        & $(45,15)$    & \texttt{\{Epsilon\}} \\
+		\braille{{Zeta}}     & $Z$        & $(45,1356)$  & \texttt{\{Zeta\}}    \\
+		\braille{{Eta}}      & $H$        & $(45,156)$   & \texttt{\{Rta\}}     \\   
+		\braille{{Theta}}    & $\Theta$   & $(45,1456)$  & \texttt{\{Theta\}}   \\
+		\braille{{Iota}}     & $I$        & $(45,24)$    & \texttt{\{Iota\}}    \\ 
+		\braille{{Kappa}}    & $K$        & $(45,13)$    & \texttt{\{Kappa\}}   \\
+		\braille{{Lambda}}   & $\Lambda$  & $(45,123)$   & \texttt{\{Lambda\}}  \\
+		\braille{{Mu}}       & $M$        & $(45,134)$   & \texttt{\{Mu\}}      \\	
+	}
+	\myagtable{
+		\braille{{Nu}}       & $N$        & $(45,1345)$  & \texttt{\{Nu\}}      \\
+		\braille{{Xi}}       & $\Xi$      & $(45,1346)$  & \texttt{\{Xi\}}      \\
+		\braille{{Omicron}}  & $O$        & $(45,1345)$  & \texttt{\{Omicron\}} \\
+		\braille{{Pi}}       & $\Pi$      & $(45,1234)$  & \texttt{\{Pi\}}      \\
+		\braille{{Rho}}      & $P$        & $(45,1235)$  & \texttt{\{Rho\}}     \\
+		\braille{{Sigma}}    & $\Sigma$   & $(45,234)$   & \texttt{\{Sigma\}}   \\
+		\braille{{Tau}}      & $T$        & $(45,2345)$  & \texttt{\{Tau\}}     \\
+		\braille{{Upsilon}}  & $\Upsilon$ & $(45,136)$   & \texttt{\{Upsilon\}} \\
+		\braille{{Phi}}      & $\Phi$     & $(45,124)$   & \texttt{\{Phi\}}     \\
+		\braille{{Chi}}      & $X$        & $(45,12346)$ & \texttt{\{Chi\}}     \\
+		\braille{{Psi}}      & $\Psi$     & $(45,13456)$ & \texttt{\{Psi\}}     \\
+		\braille{{Omega}}    & $\Omega$   & $(45,2456)$  & \texttt{\{Omega\}}   \\
+	}
+\end{center}
+
 
 
 \section{Ejemplos}

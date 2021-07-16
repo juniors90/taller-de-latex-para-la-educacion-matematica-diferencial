@@ -11,7 +11,7 @@ Taller de LaTeX para la Enseñanza de la Matemática de forma Diferencial: Lengu
    Notas/02-vocales-con-tilde
    Notas/03-prefijos
    Notas/04-operadores-aritmeticos
-   Notas/05-otros-signos-habituales
+   Notas/05-alfabeto-griego
 
 
    

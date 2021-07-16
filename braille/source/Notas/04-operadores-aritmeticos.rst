@@ -25,14 +25,14 @@ Escritura de los principales signos de las operaciones básicas con la fuente Br
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **:** | .. figure:: img/oper/div.svg     | .. figure:: img/oper/div_pkg.svg        |  ``\braille{a}``          |
+| **x** | .. figure:: img/oper/tms.svg     | .. figure:: img/oper/tms_pkg.svg        |  ``\braille{a}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
 |       |   :height: 100px                 |   :height: 100px                        |                           |
 |       |   :width: 100%                   |   :width: 100%                          |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **x** | .. figure:: img/oper/tms.svg     | .. figure:: img/oper/tms_pkg.svg        |  ``\braille{a}``          |
+| **:** | .. figure:: img/oper/div.svg     | .. figure:: img/oper/div_pkg.svg        |  ``\braille{a}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
 |       |   :height: 100px                 |   :height: 100px                        |                           |
 |       |   :width: 100%                   |   :width: 100%                          |                           |
