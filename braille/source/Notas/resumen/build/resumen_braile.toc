@@ -7,5 +7,5 @@
 \contentsline {section}{\numberline {4}Letra en español con diacrítico}{2}{}%
 \contentsline {section}{\numberline {5}Signos de puntuación}{3}{}%
 \contentsline {section}{\numberline {6}Operaciones aritméticas básicas}{3}{}%
-\contentsline {section}{\numberline {7}Alfabeto Griego Braille}{3}{}%
+\contentsline {section}{\numberline {7}Alfabeto Griego Braille}{4}{}%
 \contentsline {section}{\numberline {8}Ejemplos}{4}{}%

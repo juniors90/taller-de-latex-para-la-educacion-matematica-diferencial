@@ -156,7 +156,6 @@ INPUT d:\Documents\LaTeX\Curso LaTex\Braile\documentation\braille\source\Notas\r
 INPUT d:\Documents\LaTeX\Curso LaTex\Braile\documentation\braille\source\Notas\resumen\build\resumen_braile.toc
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
 OUTPUT d:\Documents\LaTeX\Curso LaTex\Braile\documentation\braille\source\Notas\resumen\build\resumen_braile.toc
-INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 OUTPUT d:\Documents\LaTeX\Curso LaTex\Braile\documentation\braille\source\Notas\resumen\build\resumen_braile.pdf
 INPUT C:\Users\JUAN DAVID\AppData\Local\MiKTeX\pdftex\config\pdftex.map
@@ -181,8 +180,6 @@ INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-su
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1200.pfb
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1440.pfb
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfbx1440.pfb
-INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0500.pfb
-INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm0500.pfb
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\JUAN DAVID\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1200.pfb

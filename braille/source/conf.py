@@ -34,11 +34,8 @@ import sphinx_rtd_theme
 
 extensions = [
     'sphinx_rtd_theme',
-    'sphinx_issues'
 ]
 
-# GitHub repo 
-issues_github_path  =  "juniors90/taller-de-latex-para-la-educacion-matematica-diferencial"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
