@@ -46,193 +46,188 @@ Escritura de los principales signos básicos con la fuente Braille Package.
 +-------+----------------------------------+-----------------------------------------+---------------------------+
 | Letra | Puntos braille en la matriz      | Signo según el Paquete Braille          | Comando                   |
 +=======+==================================+=========================================+===========================+
-| **a** | .. figure:: img/alph/letra_a.svg | .. figure:: img/pkg/a.svg               |  ``\braille{a}``          |
+| **a** | .. figure:: img/alph/letra_a.png | .. figure:: img/pkg/a.png               |  ``\braille{a}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **b** | .. figure:: img/alph/letra_b.svg | .. figure:: img/pkg/b.svg               |  ``\braille{b}``          |
+| **b** | .. figure:: img/alph/letra_b.png | .. figure:: img/pkg/b.png               |  ``\braille{b}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **c** | .. figure:: img/alph/letra_c.svg | .. figure:: img/pkg/c.svg               |  ``\braille{c}``          |
+| **c** | .. figure:: img/alph/letra_c.png | .. figure:: img/pkg/c.png               |  ``\braille{c}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **d** | .. figure:: img/alph/letra_d.svg | .. figure:: img/pkg/d.svg               |  ``\braille{d}``          |
+| **d** | .. figure:: img/alph/letra_d.png | .. figure:: img/pkg/d.png               |  ``\braille{d}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **e** | .. figure:: img/alph/letra_e.svg | .. figure:: img/pkg/e.svg               |  ``\braille{e}``          |
+| **e** | .. figure:: img/alph/letra_e.png | .. figure:: img/pkg/e.png               |  ``\braille{e}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **f** | .. figure:: img/alph/letra_f.svg | .. figure:: img/pkg/f.svg               |  ``\braille{f}``          |
+| **f** | .. figure:: img/alph/letra_f.png | .. figure:: img/pkg/f.png               |  ``\braille{f}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **g** | .. figure:: img/alph/letra_g.svg | .. figure:: img/pkg/g.svg               |  ``\braille{g}``          |
+| **g** | .. figure:: img/alph/letra_g.png | .. figure:: img/pkg/g.png               |  ``\braille{g}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **h** | .. figure:: img/alph/letra_h.svg | .. figure:: img/pkg/h.svg               |  ``\braille{h}``          |
+| **h** | .. figure:: img/alph/letra_h.png | .. figure:: img/pkg/h.png               |  ``\braille{h}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **i** | .. figure:: img/alph/letra_i.svg | .. figure:: img/pkg/i.svg               |  ``\braille{i}``          |
+| **i** | .. figure:: img/alph/letra_i.png | .. figure:: img/pkg/i.png               |  ``\braille{i}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **j** | .. figure:: img/alph/letra_j.svg | .. figure:: img/pkg/j.svg               |  ``\braille{j}``          |
+| **j** | .. figure:: img/alph/letra_j.png | .. figure:: img/pkg/j.png               |  ``\braille{j}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **k** | .. figure:: img/alph/letra_k.svg | .. figure:: img/pkg/k.svg               |  ``\braille{k}``          |
+| **k** | .. figure:: img/alph/letra_k.png | .. figure:: img/pkg/k.png               |  ``\braille{k}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **l** | .. figure:: img/alph/letra_l.svg | .. figure:: img/pkg/l.svg               |  ``\braille{l}``          |
+| **l** | .. figure:: img/alph/letra_l.png | .. figure:: img/pkg/l.png               |  ``\braille{l}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **m** | .. figure:: img/alph/letra_m.svg | .. figure:: img/pkg/m.svg               |  ``\braille{m}``          |
+| **m** | .. figure:: img/alph/letra_m.png | .. figure:: img/pkg/m.png               |  ``\braille{m}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **n** | .. figure:: img/alph/letra_n.svg | .. figure:: img/pkg/n.svg               |  ``\braille{n}``          |
+| **n** | .. figure:: img/alph/letra_n.png | .. figure:: img/pkg/n.png               |  ``\braille{n}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **o** | .. figure:: img/alph/letra_o.svg | .. figure:: img/pkg/o.svg               |  ``\braille{o}``          |
+| **o** | .. figure:: img/alph/letra_o.png | .. figure:: img/pkg/o.png               |  ``\braille{o}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **p** | .. figure:: img/alph/letra_p.svg | .. figure:: img/pkg/p.svg               |  ``\braille{p}``          |
+| **p** | .. figure:: img/alph/letra_p.png | .. figure:: img/pkg/p.png               |  ``\braille{p}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **q** | .. figure:: img/alph/letra_q.svg | .. figure:: img/pkg/q.svg               |  ``\braille{q}``          |
+| **q** | .. figure:: img/alph/letra_q.png | .. figure:: img/pkg/q.png               |  ``\braille{q}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **r** | .. figure:: img/alph/letra_r.svg | .. figure:: img/pkg/r.svg               |  ``\braille{r}``          |
+| **r** | .. figure:: img/alph/letra_r.png | .. figure:: img/pkg/r.png               |  ``\braille{r}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **s** | .. figure:: img/alph/letra_s.svg | .. figure:: img/pkg/s.svg               |  ``\braille{s}``          |
+| **s** | .. figure:: img/alph/letra_s.png | .. figure:: img/pkg/s.png               |  ``\braille{s}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **t** | .. figure:: img/alph/letra_t.svg | .. figure:: img/pkg/t.svg               |  ``\braille{t}``          |
+| **t** | .. figure:: img/alph/letra_t.png | .. figure:: img/pkg/t.png               |  ``\braille{t}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **u** | .. figure:: img/alph/letra_u.svg | .. figure:: img/pkg/u.svg               |  ``\braille{u}``          |
+| **u** | .. figure:: img/alph/letra_u.png | .. figure:: img/pkg/u.png               |  ``\braille{u}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **v** | .. figure:: img/alph/letra_v.svg | .. figure:: img/pkg/v.svg               |  ``\braille{v}``          |
+| **v** | .. figure:: img/alph/letra_v.png | .. figure:: img/pkg/v.png               |  ``\braille{v}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **w** | .. figure:: img/alph/letra_w.svg | .. figure:: img/pkg/w.svg               |  ``\braille{w}``          |
+| **w** | .. figure:: img/alph/letra_w.png | .. figure:: img/pkg/w.png               |  ``\braille{w}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **x** | .. figure:: img/alph/letra_x.svg | .. figure:: img/pkg/x.svg               |  ``\braille{x}``          |
+| **x** | .. figure:: img/alph/letra_x.png | .. figure:: img/pkg/x.png               |  ``\braille{x}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **y** | .. figure:: img/alph/letra_y.svg | .. figure:: img/pkg/y.svg               |  ``\braille{y}``          |
+| **y** | .. figure:: img/alph/letra_y.png | .. figure:: img/pkg/y.png               |  ``\braille{y}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-| **z** | .. figure:: img/alph/letra_z.svg | .. figure:: img/pkg/z.svg               |  ``\braille{z}``          |
+| **z** | .. figure:: img/alph/letra_z.png | .. figure:: img/pkg/z.png               |  ``\braille{z}``          |
 |       |   :scale: 40%                    |   :scale: 33%                           |                           |
-|       |   :height: 100px                 |   :height: 100px                        |                           |
-|       |   :width: 100%                   |   :width: 100%                          |                           |
+|       |   :height: 578px                 |   :height: 578px                        |                           |
+|       |   :width: 432px                  |   :width: 432px                         |                           |
 |       |   :alt: puntos_matriz_braille    |   :alt: matriz_braille                  |                           |
 |       |   :align: center                 |   :align: center                        |                           |
 +-------+----------------------------------+-----------------------------------------+---------------------------+
-
-
-
-
-
 
 
 
