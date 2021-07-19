@@ -96,8 +96,9 @@
 <li class="toctree-l3"><a class="reference internal" href="#enumeracion-de-los-puntos">1.1.1. Enumeración de los puntos</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#escritura-en-latex">1.2. Escritura en LaTeX</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#preambulo">1.2.1. Preámbulo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#archivo-braille-sty">1.2. Archivo braille.sty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#escritura-en-latex">1.3. Escritura en LaTeX</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#preambulo">1.3.1. Preámbulo</a></li>
 </ul>
 </li>
 </ul>
@@ -106,7 +107,7 @@
 <li class="toctree-l1"><a class="reference internal" href="02-vocales-con-tilde.html">3. Caracteres especiales</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03-prefijos.html">4. Prefijos</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04-operadores-aritmeticos.html">5. Operadores Aritméticos</a></li>
-<li class="toctree-l1"><a class="reference internal" href="05-alfabeto-griego.html">6. Otros Signos Habituales</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-alfabeto-griego.html">6. Otros Signos Habituales en Matemática</a></li>
 </ul>
 
             
@@ -191,7 +192,7 @@
 <div class="section" id="enumeracion-de-los-puntos">
 <h3><span class="section-number">1.1.1. </span>Enumeración de los puntos<a class="headerlink" href="#enumeracion-de-los-puntos" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>La enumeración de los puntos que componen un signo Braille de un solo caracter se efectua mediante números de tantas cifras cuantos puntos sean utilizados, empleando para cada punto el dígito que lo identifica.</p>
-<p>Por ejemplo, la letra «v minúscula» se forma en braille con los tres puntos <span class="math notranslate nohighlight">\((1,2,3,6)\)</span>.</p>
+<p>Por ejemplo, la letra «v minúscula» se forma en braille con los tres puntos <span class="math notranslate nohighlight">\((1236)\)</span>.</p>
 <a class="reference internal image-reference" href="../_images/alfabeto.svg"><img alt="matriz_braille" class="align-center" height="30px" src="../_images/alfabeto.svg" width="30%" /></a>
 <p>Notemos que, en la imagen anterior, los puntos <span class="math notranslate nohighlight">\(4\)</span> y <span class="math notranslate nohighlight">\(5\)</span> no forman parte de este signo, por lo que los señalamos con <span class="math notranslate nohighlight">\(\textcolor{blue}{\blacksquare}\)</span>.</p>
 <p>Pero ocurre que los signos visuales son muchos más que esas <span class="math notranslate nohighlight">\(64\)</span> posibles combinaciones.</p>
@@ -200,14 +201,50 @@
 <li><p><a class="reference internal" href="01-alfabeto-braille.html#cifras-numericas"><span class="std std-ref">Cifras Numéricas</span></a>,</p></li>
 <li><p><a class="reference internal" href="01-alfabeto-braille.html#signos-de-puntuacion"><span class="std std-ref">signos de puntuación</span></a>,</p></li>
 <li><p><a class="reference internal" href="04-operadores-aritmeticos.html"><span class="doc">Operadores Aritméticos</span></a> y</p></li>
-<li><p><a class="reference internal" href="05-alfabeto-griego.html"><span class="doc">Otros Signos Habituales</span></a> (euro, porcentaje, etc.).</p></li>
+<li><p><a class="reference internal" href="05-alfabeto-griego.html"><span class="doc">Otros Signos Habituales en Matemática</span></a> (euro, porcentaje, etc.).</p></li>
 </ul>
 </div>
 </div>
+<div class="section" id="archivo-braille-sty">
+<span id="alfabeto-tex"></span><h2><span class="section-number">1.2. </span>Archivo braille.sty<a class="headerlink" href="#archivo-braille-sty" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Todas estas pruebas están desarrolladas bajo la programación del archivo <code class="docutils literal notranslate"><span class="pre">braille.sty</span></code>, disponible para la descarga:</p>
+<ul class="simple">
+<li><p><a class="reference download internal" download="" href="../_downloads/30abd5ad9e0d755318058dc17b9e4c51/braille.sty"><code class="xref download docutils literal notranslate"><span class="pre">docs/braille.sty</span></code></a></p></li>
+</ul>
+<p>En este archivo, por ejemplo, podemos encontrar la configuración de las letras griegas en el paquete <code class="docutils literal notranslate"><span class="pre">braille</span></code>.</p>
+<div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="c">% ---------------------------------------------------------------------------------------- %</span>
+<span class="c">% Escritura de las letras del alfabeto Griego</span>
+<span class="c">% ===========================================</span>
+<span class="c">%</span>
+<span class="c">% Minúsculas</span>
+<span class="c">% ----------</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>a<span class="nb">}{</span>alpha<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>i<span class="nb">}{</span>iota<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>r<span class="nb">}{</span>rho<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>b<span class="nb">}{</span>beta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>k<span class="nb">}{</span>kappa<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>s<span class="nb">}{</span>sigma<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>g<span class="nb">}{</span>gamma<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>l<span class="nb">}{</span>lambda<span class="nb">}</span>     <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>t<span class="nb">}{</span>tau<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>d<span class="nb">}{</span>delta<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>m<span class="nb">}{</span>mu<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>u<span class="nb">}{</span>upsilon<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>e<span class="nb">}{</span>epsilon<span class="nb">}</span>    <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>n<span class="nb">}{</span>nu<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>f<span class="nb">}{</span>phi<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>z<span class="nb">}{</span>zeta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>x<span class="nb">}{</span>xi<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>and<span class="nb">}{</span>chi<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>wh<span class="nb">}{</span>eta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>o<span class="nb">}{</span>omicron<span class="nb">}</span>    <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>y<span class="nb">}{</span>psi<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>th<span class="nb">}{</span>theta<span class="nb">}</span>     <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>p<span class="nb">}{</span>pi<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>4<span class="nb">}{</span>w<span class="nb">}{</span>omega<span class="nb">}</span>
+<span class="c">% ---------------------------------------------------------------------------------------- %</span>
+<span class="c">%</span>
+<span class="c">% Mayúsculas</span>
+<span class="c">% ----------</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>a<span class="nb">}{</span>Alpha<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>i<span class="nb">}{</span>Iota<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>r<span class="nb">}{</span>Rho<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>b<span class="nb">}{</span>Beta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>k<span class="nb">}{</span>Kappa<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>s<span class="nb">}{</span>Sigma<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>g<span class="nb">}{</span>Gamma<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>l<span class="nb">}{</span>Lambda<span class="nb">}</span>     <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>t<span class="nb">}{</span>Tau<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>d<span class="nb">}{</span>Delta<span class="nb">}</span>      <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>m<span class="nb">}{</span>Mu<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>u<span class="nb">}{</span>Upsilon<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>e<span class="nb">}{</span>Epsilon<span class="nb">}</span>    <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>n<span class="nb">}{</span>Nu<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>f<span class="nb">}{</span>Phi<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>z<span class="nb">}{</span>Zeta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>x<span class="nb">}{</span>Xi<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>and<span class="nb">}{</span>Chi<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>wh<span class="nb">}{</span>Eta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>o<span class="nb">}{</span>Omicron<span class="nb">}</span>    <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>y<span class="nb">}{</span>Psi<span class="nb">}</span>
+<span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>th<span class="nb">}{</span>Theta<span class="nb">}</span>     <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>p<span class="nb">}{</span>Pi<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>w<span class="nb">}{</span>Omega<span class="nb">}</span>
+</pre></div>
+</div>
+</div>
 <div class="section" id="escritura-en-latex">
-<span id="alfabeto-tex"></span><h2><span class="section-number">1.2. </span>Escritura en LaTeX<a class="headerlink" href="#escritura-en-latex" title="Enlazar permanentemente con este título">¶</a></h2>
+<h2><span class="section-number">1.3. </span>Escritura en LaTeX<a class="headerlink" href="#escritura-en-latex" title="Enlazar permanentemente con este título">¶</a></h2>
 <div class="section" id="preambulo">
-<h3><span class="section-number">1.2.1. </span>Preámbulo<a class="headerlink" href="#preambulo" title="Enlazar permanentemente con este título">¶</a></h3>
+<h3><span class="section-number">1.3.1. </span>Preámbulo<a class="headerlink" href="#preambulo" title="Enlazar permanentemente con este título">¶</a></h3>
 <div class="literal-block-wrapper docutils container" id="id1">
 <div class="code-block-caption"><span class="caption-text">Preámbulo</span><a class="headerlink" href="#id1" title="Enlace permanente a este código fuente">¶</a></div>
 <div class="highlight-latex notranslate"><div class="highlight"><pre><span></span><span class="k">\documentclass</span><span class="na">[draft, 12pt]</span><span class="nb">{</span>article<span class="nb">}</span>

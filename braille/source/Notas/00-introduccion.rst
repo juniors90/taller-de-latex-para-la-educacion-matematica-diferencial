@@ -31,7 +31,7 @@ Enumeración de los puntos
 
 La enumeración de los puntos que componen un signo Braille de un solo caracter se efectua mediante números de tantas cifras cuantos puntos sean utilizados, empleando para cada punto el dígito que lo identifica.
 
-Por ejemplo, la letra "v minúscula" se forma en braille con los tres puntos :math:`(1,2,3,6)`.
+Por ejemplo, la letra "v minúscula" se forma en braille con los tres puntos :math:`(1236)`.
 
 .. image:: img/alfabeto.svg
    :height: 100px
@@ -55,6 +55,44 @@ Pero ocurre que los signos visuales son muchos más que esas :math:`64` posibles
 
 
 .. _Alfabeto-tex:
+
+Archivo braille.sty
+------------------------
+
+Todas estas pruebas están desarrolladas bajo la programación del archivo ``braille.sty``, disponible para la descarga:
+
+- :download:`docs/braille.sty`
+
+En este archivo, por ejemplo, podemos encontrar la configuración de las letras griegas en el paquete ``braille``.
+
+.. code-block:: latex
+   
+   % ---------------------------------------------------------------------------------------- %
+   % Escritura de las letras del alfabeto Griego
+   % ===========================================
+   %
+   % Minúsculas
+   % ----------
+   \prefix@char{4}{a}{alpha}      \prefix@char{4}{i}{iota}       \prefix@char{4}{r}{rho}
+   \prefix@char{4}{b}{beta}       \prefix@char{4}{k}{kappa}      \prefix@char{4}{s}{sigma}
+   \prefix@char{4}{g}{gamma}      \prefix@char{4}{l}{lambda}     \prefix@char{4}{t}{tau}
+   \prefix@char{4}{d}{delta}      \prefix@char{4}{m}{mu}         \prefix@char{4}{u}{upsilon}
+   \prefix@char{4}{e}{epsilon}    \prefix@char{4}{n}{nu}         \prefix@char{4}{f}{phi}
+   \prefix@char{4}{z}{zeta}       \prefix@char{4}{x}{xi}         \prefix@char{4}{and}{chi}
+   \prefix@char{4}{wh}{eta}       \prefix@char{4}{o}{omicron}    \prefix@char{4}{y}{psi}
+   \prefix@char{4}{th}{theta}     \prefix@char{4}{p}{pi}         \prefix@char{4}{w}{omega}      
+   % ---------------------------------------------------------------------------------------- %
+   %
+   % Mayúsculas
+   % ----------
+   \prefix@char{45}{a}{Alpha}      \prefix@char{45}{i}{Iota}       \prefix@char{45}{r}{Rho}
+   \prefix@char{45}{b}{Beta}       \prefix@char{45}{k}{Kappa}      \prefix@char{45}{s}{Sigma}
+   \prefix@char{45}{g}{Gamma}      \prefix@char{45}{l}{Lambda}     \prefix@char{45}{t}{Tau}
+   \prefix@char{45}{d}{Delta}      \prefix@char{45}{m}{Mu}         \prefix@char{45}{u}{Upsilon}
+   \prefix@char{45}{e}{Epsilon}    \prefix@char{45}{n}{Nu}         \prefix@char{45}{f}{Phi}
+   \prefix@char{45}{z}{Zeta}       \prefix@char{45}{x}{Xi}         \prefix@char{45}{and}{Chi}
+   \prefix@char{45}{wh}{Eta}       \prefix@char{45}{o}{Omicron}    \prefix@char{45}{y}{Psi}
+   \prefix@char{45}{th}{Theta}     \prefix@char{45}{p}{Pi}         \prefix@char{45}{w}{Omega}
 
 Escritura en LaTeX
 ------------------------
