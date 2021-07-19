@@ -184,7 +184,7 @@
 <li><p>Los puntos de la primer columna se numeran como <span class="math notranslate nohighlight">\(1\)</span>, <span class="math notranslate nohighlight">\(2\)</span> y <span class="math notranslate nohighlight">\(3\)</span>, y</p></li>
 <li><p>Los de la segunda columna como <span class="math notranslate nohighlight">\(4\)</span>, <span class="math notranslate nohighlight">\(5\)</span> y <span class="math notranslate nohighlight">\(6\)</span>, siempre de manera descendente (de arriba hacia abajo).</p></li>
 </ul>
-<a class="reference internal image-reference" href="../_images/matriz_braille.svg"><img alt="matriz_braille" class="align-center" height="30px" src="../_images/matriz_braille.svg" width="30%" /></a>
+<a class="reference internal image-reference" href="../_images/matriz_braille.png"><img alt="matriz_braille" class="align-center" src="../_images/matriz_braille.png" style="width: 129.6px; height: 173.4px;" /></a>
 <p>Un dato que me parece interesante es la mayoría de bibliografías señalan que, con una sola matriz, se pueden formar <span class="math notranslate nohighlight">\(64\)</span> símbolos según estén presentes o no los puntos en cada matriz (incluyendo a la matriz vacía,que no tiene ningún punto). El hecho es que este número es el resultado del problema combinatorio subyacente que tiene como resultado:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\sum_{i=0}^{6} \left (\begin{array}{l} 6 \\ i \end{array}\right ) = 64\end{split}\]</div>
@@ -193,7 +193,7 @@
 <h3><span class="section-number">1.1.1. </span>Enumeración de los puntos<a class="headerlink" href="#enumeracion-de-los-puntos" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>La enumeración de los puntos que componen un signo Braille de un solo caracter se efectua mediante números de tantas cifras cuantos puntos sean utilizados, empleando para cada punto el dígito que lo identifica.</p>
 <p>Por ejemplo, la letra «v minúscula» se forma en braille con los tres puntos <span class="math notranslate nohighlight">\((1236)\)</span>.</p>
-<a class="reference internal image-reference" href="../_images/alfabeto.svg"><img alt="matriz_braille" class="align-center" height="30px" src="../_images/alfabeto.svg" width="30%" /></a>
+<a class="reference internal image-reference" href="../_images/alfabeto.png"><img alt="matriz_braille" class="align-center" src="../_images/alfabeto.png" style="width: 129.6px; height: 173.4px;" /></a>
 <p>Notemos que, en la imagen anterior, los puntos <span class="math notranslate nohighlight">\(4\)</span> y <span class="math notranslate nohighlight">\(5\)</span> no forman parte de este signo, por lo que los señalamos con <span class="math notranslate nohighlight">\(\textcolor{blue}{\blacksquare}\)</span>.</p>
 <p>Pero ocurre que los signos visuales son muchos más que esas <span class="math notranslate nohighlight">\(64\)</span> posibles combinaciones.</p>
 <ul class="simple">
@@ -239,6 +239,19 @@
 <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>wh<span class="nb">}{</span>Eta<span class="nb">}</span>       <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>o<span class="nb">}{</span>Omicron<span class="nb">}</span>    <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>y<span class="nb">}{</span>Psi<span class="nb">}</span>
 <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>th<span class="nb">}{</span>Theta<span class="nb">}</span>     <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>p<span class="nb">}{</span>Pi<span class="nb">}</span>         <span class="k">\prefix</span>@char<span class="nb">{</span>45<span class="nb">}{</span>w<span class="nb">}{</span>Omega<span class="nb">}</span>
 </pre></div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Importante</p>
+<ol class="arabic">
+<li><p>Una vez descargado este archivo, abrir con un editor de texto y copiar el contenido.</p></li>
+<li><p>Dirigirse a la ubicación del documento <code class="docutils literal notranslate"><span class="pre">braile.sty</span></code>, dentro de la carpeta donde se ubica la distribución de latex, por ejemplo:</p>
+<p><code class="docutils literal notranslate"><span class="pre">C:\Users\MY-USERNAME\AppData\Local\Programs\MiKTeX\tex\latex\braille\braille.sty</span></code></p>
+</li>
+</ol>
+<p>y pegar lo copieado en el paso anterior.</p>
+<ol class="arabic simple" start="3">
+<li><p>Pegar el contenido a partir de la linea a partir de la linea <code class="docutils literal notranslate"><span class="pre">155</span></code> en adelante, para mantener el derecho de autor.</p></li>
+</ol>
 </div>
 </div>
 <div class="section" id="escritura-en-latex">

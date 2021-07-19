@@ -10,9 +10,9 @@ El lenguaje Braille se basa en una matriz de orden :math:`3\times 2`, tales que 
 
 - Los de la segunda columna como :math:`4`, :math:`5` y :math:`6`, siempre de manera descendente (de arriba hacia abajo).
 
-.. image:: img/matriz_braille.svg
-   :height: 100px
-   :width: 100%
+.. image:: img/matriz_braille.png
+   :height: 578px
+   :width: 432px
    :scale: 30%
    :alt: matriz_braille
    :align: center
@@ -33,9 +33,9 @@ La enumeración de los puntos que componen un signo Braille de un solo caracter 
 
 Por ejemplo, la letra "v minúscula" se forma en braille con los tres puntos :math:`(1236)`.
 
-.. image:: img/alfabeto.svg
-   :height: 100px
-   :width: 100%
+.. image:: img/alfabeto.png
+   :height: 578px
+   :width: 432px
    :scale: 30%
    :alt: matriz_braille
    :align: center
@@ -93,6 +93,20 @@ En este archivo, por ejemplo, podemos encontrar la configuración de las letras 
    \prefix@char{45}{z}{Zeta}       \prefix@char{45}{x}{Xi}         \prefix@char{45}{and}{Chi}
    \prefix@char{45}{wh}{Eta}       \prefix@char{45}{o}{Omicron}    \prefix@char{45}{y}{Psi}
    \prefix@char{45}{th}{Theta}     \prefix@char{45}{p}{Pi}         \prefix@char{45}{w}{Omega}
+
+
+.. important::
+
+   1. Una vez descargado este archivo, abrir con un editor de texto y copiar el contenido.
+
+   2. Dirigirse a la ubicación del documento ``braile.sty``, dentro de la carpeta donde se ubica la distribución de latex, por ejemplo: 
+   
+      ``C:\Users\MY-USERNAME\AppData\Local\Programs\MiKTeX\tex\latex\braille\braille.sty``
+   
+   y pegar lo copieado en el paso anterior.
+
+   3. Pegar el contenido a partir de la linea a partir de la linea ``155`` en adelante, para mantener el derecho de autor.
+
 
 Escritura en LaTeX
 ------------------------

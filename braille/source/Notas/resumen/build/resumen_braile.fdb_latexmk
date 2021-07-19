@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1626579811 "d:/Documents/LaTeX/Curso LaTex/Braile/documentation/braille/source/Notas/resumen/resumen_braile.tex" "build/resumen_braile.pdf" "resumen_braile" 1626579963
+["pdflatex"] 1626579811 "d:/Documents/LaTeX/Curso LaTex/Braile/documentation/braille/source/Notas/resumen/resumen_braile.tex" "build/resumen_braile.pdf" "resumen_braile" 1626664809
   "C:/Users/JUAN DAVID/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1626482050 10296778 66576b2fac42367e2939b1948cfbf34b ""
   "C:/Users/JUAN DAVID/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1626481963 1627007 9863e81aa55bfc786fccb8df477a4367 ""
   "C:/Users/JUAN DAVID/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1001775420 2971 def0b6c1f0b107b3b936def894055589 ""
@@ -56,6 +56,6 @@
   "resumen_braile.tex" 1626579804 9760 ce2336c54926fb6f752c6b89a5154f1e ""
   (generated)
   "build/resumen_braile.aux"
-  "build/resumen_braile.toc"
   "build/resumen_braile.pdf"
   "build/resumen_braile.log"
+  "build/resumen_braile.toc"
