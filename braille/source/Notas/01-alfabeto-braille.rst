@@ -230,7 +230,6 @@ Escritura de los principales signos básicos con la fuente Braille Package.
 +-------+----------------------------------+-----------------------------------------+---------------------------+
 
 
-
 .. _signos-de-puntuacion:
 
 signos de puntuación
